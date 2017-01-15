@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Check if the hash are the same
+
+echo " ** Check if two hashes are different ** "
+echo " -> Insert the first hash:"
+read hash1
+echo " -> Insert the second hash:"
+read hash2
+
+
+
+
+if [ $hash1 == $hash2 ];then
+	echo "The hash is correct"
+else
+	echo "The hash is NOT the same"
+fi
